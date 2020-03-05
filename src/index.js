@@ -19,13 +19,13 @@
 
 module.exports = function (robot) {
 	'use strict';
-	const heyJanetRegex = /hey(,)?\sjanet/i;
+	const heyJanetRegex = /hey(,)?\sjanet.*/i;
 	//const robotListen = process.env.CAN_HEAR ? robot.hear : robot.respond;
 	const robotListen = robot.hear;
 
-	robotListen(heyJanetRegex, (res) => {
-		const randomQuote = janetQuotes[Math.floor(Math.random() * array.length)];
-		res.reply(randomQuote);
+	robot.hear(heyJanetRegex, function(res) {
+		const randomQuote = janetQuotes[Math.floor(Math.random() * janetQuotes.length)];
+		res.send(randomQuote);
 	});
 
 	const janetQuotes = [

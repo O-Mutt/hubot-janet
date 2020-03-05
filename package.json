@@ -1,6 +1,6 @@
 {
   "name": "hubot-janet",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "respond to hey janet messages",
   "main": "index.js",
   "scripts": {
