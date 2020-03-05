@@ -1,0 +1,42 @@
+{
+  "name": "hubot-janet",
+  "version": "1.0.0",
+  "description": "respond to hey janet messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/mocha"
+  },
+  "author": "Matt Erickson (MutMatt) <Matt@MattErickson.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "hubot-test-helper": "^1.5.0",
+    "mocha": "^6.2.0"
+  },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [
+    "hubot-scripts",
+    "hubot-respond",
+    "hubot",
+    "slack",
+    "irc",
+    "hipchat",
+    "campfire",
+    "bot",
+    "robot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mutmatt/hubot-janet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mutmatt/hubot-janet/issues"
+  },
+  "homepage": "https://github.com/Mutmatt/hubot-janet#readme"
+}
