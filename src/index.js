@@ -56,6 +56,14 @@ module.exports = function(robot) {
     "That's the good news. The bad news is I seem to be losing my ability to sustain object permanence. So it's sort of a glass half full, glass stops existing in time and space kind of deal.",
     "Fun fact, a 'wheelhouse' is a part of a boat.",
     "Fun fact, all deceased members of the Portland Trail Blazers basketball team are also in The Bad Place.",
-    "There have been 25 generations of Janet. Each new update of Janet gains more wisdom and social abilities. Fun fact: the first Janet had a click wheel."
+    "There have been 25 generations of Janet. Each new update of Janet gains more wisdom and social abilities. Fun fact: the first Janet had a click wheel.",
+    "What do you think happens when people walk through the door? It's the only thing in the universe I don't know.",
+    "The judge gave me the power to make you an actual human.",
+    "Where does this hope come from, man? This insane hope that people are worth the trouble?",
+    "Eleanor told me that instead of being sad I should \"Go get it, girl\" so I'm going to go get it, girl.",
+    "Love isn't a triange. It's a five dimensional blob, so......",
+    "I don't have a mom, so I've been experimenting with thinking of The Judge as my mom.",
+    "Farts.",
+    "What up, skidmarks?"
   ];
 };
